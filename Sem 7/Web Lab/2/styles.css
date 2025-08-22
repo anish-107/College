@@ -1,0 +1,372 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #362222;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.alphabet-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.letter-box {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 800;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    color: #fff; 
+}
+
+
+/* A - AliceBlue */
+.letter-a {
+    background-color: #F0F8FF;
+    color: #2F4F4F;
+    box-shadow: 7px 7px 15px #2F4F4F;
+}
+.letter-a:hover {
+    background-color: #2F4F4F;
+    color: #F0F8FF;
+    box-shadow: 7px 7px 15px #F0F8FF;
+    transform: scale(1.1);
+}
+
+/* B - Beige */
+.letter-b {
+    background-color: #F5F5DC;
+    color: #A52A2A;
+    box-shadow: 7px 7px 15px #A52A2A;
+}
+.letter-b:hover {
+    background-color: #A52A2A;
+    color: #F5F5DC;
+    box-shadow: 7px 7px 15px #F5F5DC;
+    transform: scale(1.1);
+}
+
+/* C - Cyan */
+.letter-c {
+    background-color: #00FFFF;
+    color: #8B0000;
+    box-shadow: 7px 7px 15px #8B0000;
+}
+.letter-c:hover {
+    background-color: #8B0000;
+    color: #00FFFF;
+    box-shadow: 7px 7px 15px #00FFFF;
+    transform: scale(1.1);
+}
+
+/* D - DeepPink */
+.letter-d {
+    background-color: #FF1493;
+    color: #006400;
+    box-shadow: 7px 7px 15px #006400;
+}
+.letter-d:hover {
+    background-color: #006400;
+    color: #FF1493;
+    box-shadow: 7px 7px 15px #FF1493;
+    transform: scale(1.1);
+}
+
+/* E - Emerald (Green) */
+.letter-e {
+    background-color: #50C878;
+    color: #4B0082;
+    box-shadow: 7px 7px 15px #4B0082;
+}
+.letter-e:hover {
+    background-color: #4B0082;
+    color: #50C878;
+    box-shadow: 7px 7px 15px #50C878;
+    transform: scale(1.1);
+}
+
+/* F - Fuchsia */
+.letter-f {
+    background-color: #FF00FF;
+    color: #556B2F;
+    box-shadow: 7px 7px 15px #556B2F;
+}
+.letter-f:hover {
+    background-color: #556B2F;
+    color: #FF00FF;
+    box-shadow: 7px 7px 15px #FF00FF;
+    transform: scale(1.1);
+}
+
+/* G - Gold */
+.letter-g {
+    background-color: #FFD700;
+    color: #00008B;
+    box-shadow: 7px 7px 15px #00008B;
+}
+.letter-g:hover {
+    background-color: #00008B;
+    color: #FFD700;
+    box-shadow: 7px 7px 15px #FFD700;
+    transform: scale(1.1);
+}
+
+/* H - HotPink */
+.letter-h {
+    background-color: #FF69B4;
+    color: #2E8B57;
+    box-shadow: 7px 7px 15px #2E8B57;
+}
+.letter-h:hover {
+    background-color: #2E8B57;
+    color: #FF69B4;
+    box-shadow: 7px 7px 15px #FF69B4;
+    transform: scale(1.1);
+}
+
+/* I - Indigo */
+.letter-i {
+    background-color: #4B0082;
+    color: #DAA520;
+    box-shadow: 7px 7px 15px #DAA520;
+}
+.letter-i:hover {
+    background-color: #DAA520;
+    color: #4B0082;
+    box-shadow: 7px 7px 15px #4B0082;
+    transform: scale(1.1);
+}
+
+/* J - Jade */
+.letter-j {
+    background-color: #00A86B;
+    color: #800000;
+    box-shadow: 7px 7px 15px #800000;
+}
+.letter-j:hover {
+    background-color: #800000;
+    color: #00A86B;
+    box-shadow: 7px 7px 15px #00A86B;
+    transform: scale(1.1);
+}
+
+/* K - Khaki */
+.letter-k {
+    background-color: #F0E68C;
+    color: #483D8B;
+    box-shadow: 7px 7px 15px #483D8B;
+}
+.letter-k:hover {
+    background-color: #483D8B;
+    color: #F0E68C;
+    box-shadow: 7px 7px 15px #F0E68C;
+    transform: scale(1.1);
+}
+
+/* L - Lavender */
+.letter-l {
+    background-color: #E6E6FA;
+    color: #B8860B;
+    box-shadow: 7px 7px 15px #B8860B;
+}
+.letter-l:hover {
+    background-color: #B8860B;
+    color: #E6E6FA;
+    box-shadow: 7px 7px 15px #E6E6FA;
+    transform: scale(1.1);
+}
+
+/* M - Magenta */
+.letter-m {
+    background-color: #FF00FF;
+    color: #008B8B;
+    box-shadow: 7px 7px 15px #008B8B;
+}
+.letter-m:hover {
+    background-color: #008B8B;
+    color: #FF00FF;
+    box-shadow: 7px 7px 15px #FF00FF;
+    transform: scale(1.1);
+}
+
+/* N - Navy */
+.letter-n {
+    background-color: #000080;
+    color: #FFA500;
+    box-shadow: 7px 7px 15px #FFA500;
+}
+.letter-n:hover {
+    background-color: #FFA500;
+    color: #000080;
+    box-shadow: 7px 7px 15px #000080;
+    transform: scale(1.1);
+}
+
+/* O - Orange */
+.letter-o {
+    background-color: #FFA500;
+    color: #000080;
+    box-shadow: 7px 7px 15px #000080;
+}
+.letter-o:hover {
+    background-color: #000080;
+    color: #FFA500;
+    box-shadow: 7px 7px 15px #FFA500;
+    transform: scale(1.1);
+}
+
+/* P - Plum */
+.letter-p {
+    background-color: #DDA0DD;
+    color: #556B2F;
+    box-shadow: 7px 7px 15px #556B2F;
+}
+.letter-p:hover {
+    background-color: #556B2F;
+    color: #DDA0DD;
+    box-shadow: 7px 7px 15px #DDA0DD;
+    transform: scale(1.1);
+}
+
+/* Q - Quartz */
+.letter-q {
+    background-color: #D9D9F3;
+    color: #9932CC;
+    box-shadow: 7px 7px 15px #9932CC;
+}
+.letter-q:hover {
+    background-color: #9932CC;
+    color: #D9D9F3;
+    box-shadow: 7px 7px 15px #D9D9F3;
+    transform: scale(1.1);
+}
+
+/* R - Red */
+.letter-r {
+    background-color: #FF0000;
+    color: #008000;
+    box-shadow: 7px 7px 15px #008000;
+}
+.letter-r:hover {
+    background-color: #008000;
+    color: #FF0000;
+    box-shadow: 7px 7px 15px #FF0000;
+    transform: scale(1.1);
+}
+
+/* S - Salmon */
+.letter-s {
+    background-color: #FA8072;
+    color: #00CED1;
+    box-shadow: 7px 7px 15px #00CED1;
+}
+.letter-s:hover {
+    background-color: #00CED1;
+    color: #FA8072;
+    box-shadow: 7px 7px 15px #FA8072;
+    transform: scale(1.1);
+}
+
+/* T - Teal */
+.letter-t {
+    background-color: #008080;
+    color: #B22222;
+    box-shadow: 7px 7px 15px #B22222;
+}
+.letter-t:hover {
+    background-color: #B22222;
+    color: #008080;
+    box-shadow: 7px 7px 15px #008080;
+    transform: scale(1.1);
+}
+
+/* U - Ultramarine */
+.letter-u {
+    background-color: #120A8F;
+    color: #A0522D;
+    box-shadow: 7px 7px 15px #A0522D;
+}
+.letter-u:hover {
+    background-color: #A0522D;
+    color: #120A8F;
+    box-shadow: 7px 7px 15px #120A8F;
+    transform: scale(1.1);
+}
+
+/* V - Violet */
+.letter-v {
+    background-color: #EE82EE;
+    color: #808000;
+    box-shadow: 7px 7px 15px #808000;
+}
+.letter-v:hover {
+    background-color: #808000;
+    color: #EE82EE;
+    box-shadow: 7px 7px 15px #EE82EE;
+    transform: scale(1.1);
+}
+
+/* W - White */
+.letter-w {
+    background-color: #FFFFFF;
+    color: #000000;
+    box-shadow: 7px 7px 15px #000000;
+}
+.letter-w:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+    box-shadow: 7px 7px 15px #FFFFFF;
+    transform: scale(1.1);
+}
+
+/* X - Xanadu */
+.letter-x {
+    background-color: #738678;
+    color: #CD5C5C;
+    box-shadow: 7px 7px 15px #CD5C5C;
+}
+.letter-x:hover {
+    background-color: #CD5C5C;
+    color: #738678;
+    box-shadow: 7px 7px 15px #738678;
+    transform: scale(1.1);
+}
+
+/* Y - Yellow */
+.letter-y {
+    background-color: #FFFF00;
+    color: #800080;
+    box-shadow: 7px 7px 15px #800080;
+}
+.letter-y:hover {
+    background-color: #800080;
+    color: #FFFF00;
+    box-shadow: 7px 7px 15px #FFFF00;
+    transform: scale(1.1);
+}
+
+/* Z - Zaffre */
+.letter-z {
+    background-color: #0014A8;
+    color: #32CD32;
+    box-shadow: 7px 7px 15px #32CD32;
+}
+.letter-z:hover {
+    background-color: #32CD32;
+    color: #0014A8;
+    box-shadow: 7px 7px 15px #0014A8;
+    transform: scale(1.1);
+}
